@@ -1,0 +1,7 @@
+<div>
+    <ul>
+        <li *ngFor="let color of colors; let i = index" (click)="fireEvent(color.colorhex)">
+            ID: {{color.id}} Name: {{color.colorname}} Hex: {{color.colorhex}}
+        </li>
+    </ul>
+</div>

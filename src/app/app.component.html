@@ -1,0 +1,19 @@
+<div>
+  <div class="jumbotron jumbotron-fluid bg-info text-white">
+    <div class="container">
+      <h3>Angular colors</h3>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <app-color-list (hexval)="onNewhexval($event)"></app-color-list>
+      </div>
+      <div class="col-6">
+        <app-color-square [bgColor]="bgColor"></app-color-square>
+      </div>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
