@@ -49,7 +49,6 @@ export class ColorListComponent implements OnInit {
       colorname: "orange",
       colorhex: "#FFA500",
     },
-
     {
       id: 7,
       colorname: "purple",
